@@ -6,5 +6,5 @@ html = open("https://flatironschool.com/")
 class Scraper 
   
   def doc 
-  Nokogiri::HTML(html)
+  doc = Nokogiri::HTML(html)
 
