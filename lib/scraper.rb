@@ -3,6 +3,8 @@ require 'open-uri'
 
 html = open("https://flatironschool.com/")
 
-
-Nokogiri::HTML(html)
+class Scraper 
+  
+  def doc 
+  Nokogiri::HTML(html)
 
